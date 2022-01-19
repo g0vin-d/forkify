@@ -1,0 +1,20 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Modern Recipe Application built by Vanilla Javascript",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Govind Thakre",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "fractional": "^1.0.0",
+    "parcel": "^2.2.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1"
+  }
+}
